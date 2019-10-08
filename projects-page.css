@@ -1,0 +1,29 @@
+.container.description {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.container .section:last-child {
+    margin-bottom: 0;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.description h2, .description h1 {
+    margin-bottom: 25px;
+}
+
+.section .vehicle:last-child {
+    margin-bottom: 0;
+}
+
+.vehicle {
+    margin-bottom: 50px;
+}

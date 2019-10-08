@@ -1,0 +1,19 @@
+.title {
+	position: absolute;
+	width: 60%;
+	text-align: center;
+	font-size: 5vw;
+    z-index: 999;
+    color: white;
+	top: 25%;
+	left: 50%;
+	transform: translatex(-50%) translatey(-50%);
+}
+
+.container.team {
+    padding: 60px;
+}
+
+.officer {
+    margin-bottom: 40px;
+}

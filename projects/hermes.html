@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Embry-Riddle Future Space Explorers and Developers Society</title>
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+<link rel="shortcut icon" href="{Favicon}">
+
+<!-- Bootstrap, jQuery, and Popper.js -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+<link rel="stylesheet" href="./../constructs.css">
+
+<link rel="stylesheet" href="./../projects-page.css">
+
+<script>
+    $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > window.innerHeight*.5);
+  });
+});
+</script>
+
+</head>
+<body>
+
+<!-- NAVIGATION START -->
+
+<nav class="navbar fixed-top navbar-expand bg-white">
+  <a class="navbar-brand" href="#"><i><b>ERFSEDS</b></i></a>
+
+    <ul class="navbar-nav navbar-center os">
+      <li class="nav-item active">
+        <a class="nav-link" href="./../index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/projects/artemis.html">Artemis</a>
+          <a class="dropdown-item" href="/projects/pathfinder.html">Pathfinder</a>
+          <a class="dropdown-item" href="/projects/hermes.html">Hermes</a>
+          <a class="dropdown-item" href="/projects/hummingbird.html">Hummingbird</a>
+          <a class="dropdown-item" href="/projects/gryphus.html">Gryphus</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/team.html">OUR TEAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/calendar.html">CALENDAR</a>
+      </li>
+      <!--
+      <li class="nav-item">
+        <a class="nav-link" href="/media.html">MEDIA</a>
+      </li>
+      -->
+    </ul>
+
+    <ul class="navbar-nav navbar-right">
+        <li class="nav-item">
+            <a class="nav-link " href="https://www.facebook.com/ERFSEDS/"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/erfseds_rocketry/"><i class="fab fa-instagram"></i></a>
+        </li>
+    </ul>
+</nav>
+
+<!-- NAVIGATION END -->
+
+<div class="halfscreen">
+    <div class="row justify-content-center">
+        <img class="background lowop" src="./media/calendar_header.png">
+        <h1 class="title">HERMES</h1>
+    </div>
+</div>
+
+<div class="container description">
+    <div class="row section">
+        <div class="col col-lg-6 col-md-12 col-sm-12">
+            <h1>The Competition</h1>
+            Project Hermes is a 1U cubesat development project and is ERFSEDS first satellite effort. Our team is in the design development phase and is participating in the SEDS SAT-2 competition, where the winning team will receive funding for launch and deployment into low earth orbit by NanoRacks and Astranis. Hermes' primary goals are to develop a ground station to track the satellite and to build a star tracker to be implemented for attitude determination.
+            <br><br>
+            Currently, the team is in the concept and proposal phase of the competition. The five-person crew is working to complete a document describing the teams skills and outline of the Cubesat's payload. This document will be submitted by May of this year, and the following Summer will mark the start of manufacturing.
+            <br><br>
+            <a href="http://seds.org/astranis-seds-sat-2/"><button class="btn btn-primary">Read More about the Competition Here</button></a>
+        </div>
+        <div class="col col-lg-6 col-md-12 col-sm-12 image" style="padding: 50px">
+            <img style="filter: invert(100%);" src="./../media/project-images/hermes/hermes-1.png" alt="">
+        </div>
+    </div>
+    <div class="row section">
+        <div class="col col-12">
+            <h1>Our Cubesat</h1>
+        </div>
+        <div class="col col-12">
+            <h2>Hermes-I</h2>
+        </div>
+        <div class="row vehicle">
+            <div class="col col-lg-12 col-md-12 col-sm-12 specs">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th><i class="fas fa-ruler-horizontal"></i></th>
+                            <th scope="row">Cubesat Size</th>
+                            <td>1U, 10cm x 10cm</td>
+                        </tr>
+                        <tr>
+                            <th><i class="fas fa-tools"></i></th>
+                            <th scope="row">Chassis</th>
+                            <td>Pumpkin Space Skeletonized Frame</td>
+                        </tr>
+                        <tr>
+                            <th><i class="fas fa-cube"></i></th>
+                            <th scope="row">Payload</th>
+                            <td>Student Built Startracker</td>
+                        </tr>
+                        <tr>
+                            <th><i class="fas fa-calendar-day"></i></th>
+                            <th scope="row">Proposal Due Date</th>
+                            <td>May 1, 2019</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- FOOTER START -->
+
+<div class="row justify-content-center footer">
+    <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-12 footers">
+            <div class="container">
+                <div class="row">
+                <div class="col col-lg-6 col-md-6 col-sm-6">
+                    <h2>ERFSEDS</h2>
+                    <p>Our group of dedicated students are always working. Follow our team on social media to keep up with research updates, outreach projects, and club events. Feel free to reach our to our officers through email.<p>
+                    <i class="fas fa-envelope"></i> erfseds@gmail.com <br>
+                    <i class="fab fa-facebook-square"></i> Facebook.com/ERFSEDS <br>
+                    <i class="fab fa-instagram"></i> @erfseds_rocketry <br>
+                </div>
+                <div class="col col-lg-6 col-md-6 col-sm-6">
+                    <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <ul>
+                            <li class="os"><a href="/index.html">Home</a></li>
+                            <li class="os"><a href="/index.html#projects">Projects</a></li>
+                            <li class="os"><a href="/team.html">Our Team</a></li>
+                            <li class="os"><a href="/calendar.html">Calendar</a></li>
+                            <!--
+                            <li class="os"><a href="/media.html">Media</a></li>
+                            -->
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER END -->
+
+</body>
+</html>
